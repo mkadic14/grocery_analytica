@@ -1,0 +1,83 @@
+
+
+.signUpPage {
+    font-family: 'Fraunces', serif;
+    background-color: #FFF4DC;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.homeIcon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: auto;
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #333;
+    text-align: center;
+}
+
+.signUpForm {
+    background: #FFF4DC;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+.inputWrapper {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.inputIcon {
+    position: absolute;
+    left: 10px;
+    width: 24px;
+    height: auto;
+}
+
+.signUpForm input {
+    border: none;
+    outline: none;
+    padding: 15px 20px 15px 50px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+
+.signUpForm input:last-child {
+    margin-bottom: 0;
+}
+
+
+.signUpForm button {
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+
+.signUpForm button:hover {
+    background-color: #555;
+}
